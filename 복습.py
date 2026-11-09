@@ -12,7 +12,7 @@ else:
 
 
 st.header("문제2")
-st.image("1.png.jpg")
+st.image("1_sp.png")
 st.write("이사진의 이름은?")
 정답2 = st.text_input("2번 정답 입력")
 st.write(정답2)
@@ -28,7 +28,7 @@ else:
 
 st.header("문제3")
 st.write("어떤 누나에게 고백한다음 차인새끼는?")
-정답1 = st.text_input("1번 정답 입력")
+정답1 = st.text_input("3번 정답 입력")
 st.write(정답1)
 if 정답1 == "근성진" or 정답1 == "씹성진" or 정답1 == "좆성진":
     st.success("정답입니다")
@@ -36,4 +36,5 @@ elif 정답1 =="":
     st.write("")
 else:
     st.error("다시도전해주세요")
+
 
